@@ -14,6 +14,8 @@
 		FBFC6E821B9F68F300DBB7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFC6E801B9F68F300DBB7B3 /* LaunchScreen.storyboard */; };
 		FBFC6E8D1B9F68F300DBB7B3 /* sequeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC6E8C1B9F68F300DBB7B3 /* sequeTests.swift */; };
 		FBFC6E981B9F68F400DBB7B3 /* sequeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC6E971B9F68F400DBB7B3 /* sequeUITests.swift */; };
+		FBFC6EAC1B9F8ADE00DBB7B3 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC6EAB1B9F8ADE00DBB7B3 /* RedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FBFC6EAE1B9F952900DBB7B3 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC6EAD1B9F952900DBB7B3 /* YellowViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FBFC6E931B9F68F300DBB7B3 /* sequeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sequeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFC6E971B9F68F400DBB7B3 /* sequeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sequeUITests.swift; sourceTree = "<group>"; };
 		FBFC6E991B9F68F400DBB7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFC6EAB1B9F8ADE00DBB7B3 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		FBFC6EAD1B9F952900DBB7B3 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FBFC6E7E1B9F68F300DBB7B3 /* Assets.xcassets */,
 				FBFC6E801B9F68F300DBB7B3 /* LaunchScreen.storyboard */,
 				FBFC6E831B9F68F300DBB7B3 /* Info.plist */,
+				FBFC6EAB1B9F8ADE00DBB7B3 /* RedViewController.swift */,
+				FBFC6EAD1B9F952900DBB7B3 /* YellowViewController.swift */,
 			);
 			path = seque;
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFC6EAE1B9F952900DBB7B3 /* YellowViewController.swift in Sources */,
+				FBFC6EAC1B9F8ADE00DBB7B3 /* RedViewController.swift in Sources */,
 				FBFC6E7A1B9F68F300DBB7B3 /* ViewController.swift in Sources */,
 				FBFC6E781B9F68F300DBB7B3 /* AppDelegate.swift in Sources */,
 			);
